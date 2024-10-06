@@ -22,6 +22,9 @@
 		04A781722CB3047A00A42023 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781712CB3047A00A42023 /* PlusOne.swift */; };
 		04A781732CB3048000A42023 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781712CB3047A00A42023 /* PlusOne.swift */; };
 		04A781752CB304A800A42023 /* PlusOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781742CB304A800A42023 /* PlusOneTests.swift */; };
+		04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781762CB3062B00A42023 /* SearchInsertPosition.swift */; };
+		04A781782CB3062D00A42023 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781762CB3062B00A42023 /* SearchInsertPosition.swift */; };
+		04A7817A2CB3063A00A42023 /* SearchInsertPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781792CB3063A00A42023 /* SearchInsertPositionTests.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8BFF32CB279AA00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
@@ -62,6 +65,8 @@
 		04A7816F2CB3036800A42023 /* NumberOfLinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLinesTests.swift; sourceTree = "<group>"; };
 		04A781712CB3047A00A42023 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		04A781742CB304A800A42023 /* PlusOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTests.swift; sourceTree = "<group>"; };
+		04A781762CB3062B00A42023 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
+		04A781792CB3063A00A42023 /* SearchInsertPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPositionTests.swift; sourceTree = "<group>"; };
 		04E8BFDB2CB2791B00E58205 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8BFDE2CB2791B00E58205 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04E8BFE92CB2793300E58205 /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +121,7 @@
 				04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */,
 				04A781602CB29DA400A42023 /* ProductExceptSelf.swift */,
 				04A781652CB29FD000A42023 /* IncreasingTriplet.swift */,
+				04A781762CB3062B00A42023 /* SearchInsertPosition.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 				04E8C0032CB2E56100E58205 /* StringCompressionTests.swift */,
 				04A7816F2CB3036800A42023 /* NumberOfLinesTests.swift */,
 				04A781742CB304A800A42023 /* PlusOneTests.swift */,
+				04A781792CB3063A00A42023 /* SearchInsertPositionTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
 				04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */,
 				04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */,
 				04A781662CB29FD000A42023 /* IncreasingTriplet.swift in Sources */,
@@ -238,8 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A7817A2CB3063A00A42023 /* SearchInsertPositionTests.swift in Sources */,
 				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
 				04E8BFF32CB279AA00E58205 /* main.swift in Sources */,
+				04A781782CB3062D00A42023 /* SearchInsertPosition.swift in Sources */,
 				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
 				04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
