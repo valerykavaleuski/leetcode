@@ -18,6 +18,9 @@
 		04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781652CB29FD000A42023 /* IncreasingTriplet.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8BFF32CB279AA00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
+		04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
+		04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
+		04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0032CB2E56100E58205 /* StringCompressionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +56,8 @@
 		04E8BFDE2CB2791B00E58205 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04E8BFE92CB2793300E58205 /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8BFFF2CB27ADE00E58205 /* Leetcode.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Leetcode.xctestplan; sourceTree = SOURCE_ROOT; };
+		04E8C0002CB2E55700E58205 /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringCompression.swift; path = ../../leetcode/Leetcode/StringCompression.swift; sourceTree = "<group>"; };
+		04E8C0032CB2E56100E58205 /* StringCompressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringCompressionTests.swift; path = ../../leetcode/LeetcodeTests/StringCompressionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04E8C0002CB2E55700E58205 /* StringCompression.swift */,
 				04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */,
 				04A781602CB29DA400A42023 /* ProductExceptSelf.swift */,
 				04A781652CB29FD000A42023 /* IncreasingTriplet.swift */,
@@ -109,6 +115,7 @@
 				04A781672CB2D3A200A42023 /* IncreasingTripletTests.swift */,
 				04A781632CB29DEC00A42023 /* ProductExceptSelfTests.swift */,
 				04E8BFFF2CB27ADE00E58205 /* Leetcode.xctestplan */,
+				04E8C0032CB2E56100E58205 /* StringCompressionTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -204,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */,
+				04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */,
 				04A781662CB29FD000A42023 /* IncreasingTriplet.swift in Sources */,
 				04A781612CB29DA400A42023 /* ProductExceptSelf.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
@@ -214,9 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
 				04E8BFF32CB279AA00E58205 /* main.swift in Sources */,
 				04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
+				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
 				04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */,
 				04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */,
 				04A781622CB29DAA00A42023 /* ProductExceptSelf.swift in Sources */,
