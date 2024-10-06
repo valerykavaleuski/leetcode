@@ -10,6 +10,9 @@
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
+		04A781612CB29DA400A42023 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781602CB29DA400A42023 /* ProductExceptSelf.swift */; };
+		04A781622CB29DAA00A42023 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781602CB29DA400A42023 /* ProductExceptSelf.swift */; };
+		04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781632CB29DEC00A42023 /* ProductExceptSelfTests.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8BFF32CB279AA00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +42,8 @@
 /* Begin PBXFileReference section */
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
+		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
+		04A781632CB29DEC00A42023 /* ProductExceptSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelfTests.swift; sourceTree = "<group>"; };
 		04E8BFDB2CB2791B00E58205 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8BFDE2CB2791B00E58205 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04E8BFE92CB2793300E58205 /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +89,9 @@
 		04E8BFDD2CB2791B00E58205 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */,
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */,
+				04A781602CB29DA400A42023 /* ProductExceptSelf.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */,
+				04A781632CB29DEC00A42023 /* ProductExceptSelfTests.swift */,
 				04E8BFFF2CB27ADE00E58205 /* Leetcode.xctestplan */,
 			);
 			path = LeetcodeTests;
@@ -190,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */,
+				04A781612CB29DA400A42023 /* ProductExceptSelf.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E8BFF32CB279AA00E58205 /* main.swift in Sources */,
+				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
 				04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */,
+				04A781622CB29DAA00A42023 /* ProductExceptSelf.swift in Sources */,
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
