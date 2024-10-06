@@ -16,6 +16,9 @@
 		04A781662CB29FD000A42023 /* IncreasingTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781652CB29FD000A42023 /* IncreasingTriplet.swift */; };
 		04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781672CB2D3A200A42023 /* IncreasingTripletTests.swift */; };
 		04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781652CB29FD000A42023 /* IncreasingTriplet.swift */; };
+		04A7816D2CB3032F00A42023 /* NumberOfLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7816C2CB3032F00A42023 /* NumberOfLines.swift */; };
+		04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7816C2CB3032F00A42023 /* NumberOfLines.swift */; };
+		04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7816F2CB3036800A42023 /* NumberOfLinesTests.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8BFF32CB279AA00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
@@ -52,6 +55,8 @@
 		04A781632CB29DEC00A42023 /* ProductExceptSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelfTests.swift; sourceTree = "<group>"; };
 		04A781652CB29FD000A42023 /* IncreasingTriplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingTriplet.swift; sourceTree = "<group>"; };
 		04A781672CB2D3A200A42023 /* IncreasingTripletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingTripletTests.swift; sourceTree = "<group>"; };
+		04A7816C2CB3032F00A42023 /* NumberOfLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLines.swift; sourceTree = "<group>"; };
+		04A7816F2CB3036800A42023 /* NumberOfLinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLinesTests.swift; sourceTree = "<group>"; };
 		04E8BFDB2CB2791B00E58205 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8BFDE2CB2791B00E58205 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04E8BFE92CB2793300E58205 /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04A7816C2CB3032F00A42023 /* NumberOfLines.swift */,
 				04E8C0002CB2E55700E58205 /* StringCompression.swift */,
 				04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */,
 				04A781602CB29DA400A42023 /* ProductExceptSelf.swift */,
@@ -116,6 +122,7 @@
 				04A781632CB29DEC00A42023 /* ProductExceptSelfTests.swift */,
 				04E8BFFF2CB27ADE00E58205 /* Leetcode.xctestplan */,
 				04E8C0032CB2E56100E58205 /* StringCompressionTests.swift */,
+				04A7816F2CB3036800A42023 /* NumberOfLinesTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -215,6 +222,7 @@
 				04A781662CB29FD000A42023 /* IncreasingTriplet.swift in Sources */,
 				04A781612CB29DA400A42023 /* ProductExceptSelf.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
+				04A7816D2CB3032F00A42023 /* NumberOfLines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +232,11 @@
 			files = (
 				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
 				04E8BFF32CB279AA00E58205 /* main.swift in Sources */,
+				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
 				04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
 				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
+				04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */,
 				04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */,
 				04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */,
 				04A781622CB29DAA00A42023 /* ProductExceptSelf.swift in Sources */,
@@ -361,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UV3UVQ6CK;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -372,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UV3UVQ6CK;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -384,6 +396,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2UV3UVQ6CK;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = valery.kavaleuski.bc7d4182e33caa7e.LeetcodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,6 +412,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2UV3UVQ6CK;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = valery.kavaleuski.bc7d4182e33caa7e.LeetcodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
