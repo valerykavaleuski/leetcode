@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "938034E7-D6E0-4224-9551-A5215EE3026B",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Leetcode.xcodeproj",
+        "identifier" : "04E8BFE82CB2793300E58205",
+        "name" : "LeetcodeTests"
+      }
+    }
+  ],
+  "version" : 1
+}
