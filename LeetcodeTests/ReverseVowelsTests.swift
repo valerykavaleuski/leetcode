@@ -6,13 +6,13 @@ final class ReverseVowelsTests: XCTestCase {
 
     func test_reverseVowels() {
         let input = "IceCreAm"
-        let output = "AceCreIm"
-        XCTAssertEqual(sut.reverseVowels(input), output)
+        let expectedOutput = "AceCreIm"
+        XCTAssertEqual(sut.reverseVowels(input), expectedOutput)
     }
     
     func test_reverseVowels2() {
         let input = "leetcode"
-        let output = "leotcede"
-        XCTAssertEqual(sut.reverseVowels(input), output)
+        let expectedOutput = "leotcede"
+        XCTAssertEqual(sut.reverseVowels(input), expectedOutput)
     }
 }

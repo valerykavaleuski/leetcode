@@ -6,13 +6,13 @@ final class ProductExceptSelfTests: XCTestCase {
     
     func test_productExceptSelf() {
         let input = [1,2,3,4]
-        let output = [24,12,8,6]
-        XCTAssertEqual(sut.productExceptSelf(input), output)
+        let expectedOutput = [24,12,8,6]
+        XCTAssertEqual(sut.productExceptSelf(input), expectedOutput)
     }
     
     func test_productExceptSelf2() {
         let input = [-1,1,0,-3,3]
-        let output = [0,0,9,0,0]
-        XCTAssertEqual(sut.productExceptSelf(input), output)
+        let expectedOutput = [0,0,9,0,0]
+        XCTAssertEqual(sut.productExceptSelf(input), expectedOutput)
     }
 }
