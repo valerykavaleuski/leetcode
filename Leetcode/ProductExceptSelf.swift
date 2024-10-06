@@ -15,6 +15,7 @@
  */
 
 extension Solution {
+    
     @_optimize(speed)
     func productExceptSelf(_ nums: [Int]) -> [Int] {
         var result = nums

@@ -23,6 +23,7 @@
  */
 
 extension Solution {
+    
     @_optimize(speed)
     func reverseVowels(_ s: String) -> String {
         var chars = s.map { $0 }

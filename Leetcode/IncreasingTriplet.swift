@@ -29,6 +29,7 @@
  */
 
 extension Solution {
+    
     @_optimize(speed)
     func increasingTriplet(_ nums: [Int]) -> Bool {
         guard nums.count > 2 else {

@@ -38,6 +38,8 @@
  */
 
 extension Solution {
+    
+    @_optimize(speed)
     func numberOfLines(_ widths: [Int], _ s: String) -> [Int] {
         var length = 0
         var lines = 0
