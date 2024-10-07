@@ -39,4 +39,24 @@ extension Solution {
 
         return [Array(set1.subtracting(set2)), Array(set2.subtracting(set1))]
     }
+    
+//    func findDifference(_ nums1: [Int], _ nums2: [Int]) -> [[Int]] {
+//        let set1 = Set<Int>(nums1)
+//        let set2 = Set<Int>(nums2)
+//        var result1 = Set<Int>()
+//        var result2 = Set<Int>()
+//
+//        nums1.forEach { num in
+//            if set2.contains(num) == false {
+//                result1.insert(num)
+//            }
+//        }
+//        
+//        nums2.forEach { num in
+//            if set1.contains(num) == false {
+//                result2.insert(num)
+//            }
+//        }
+//        return [Array(result1), Array(result2)]
+//    }
 }
