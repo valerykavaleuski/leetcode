@@ -32,6 +32,9 @@
 		04541E1F2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */; };
 		04541E212CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E202CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift */; };
 		04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */; };
+		04541E242CB4169D00426180 /* MinimumNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E232CB4169D00426180 /* MinimumNumberGame.swift */; };
+		04541E262CB416A900426180 /* MinimumNumberGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E252CB416A900426180 /* MinimumNumberGameTests.swift */; };
+		04541E272CB416AB00426180 /* MinimumNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E232CB4169D00426180 /* MinimumNumberGame.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -95,6 +98,8 @@
 		04541E1C2CB4102A00426180 /* MergeStringsAlternatelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeStringsAlternatelyTests.swift; sourceTree = "<group>"; };
 		04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTheSentenceIsPangram.swift; sourceTree = "<group>"; };
 		04541E202CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTheSentenceIsPangramTests.swift; sourceTree = "<group>"; };
+		04541E232CB4169D00426180 /* MinimumNumberGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberGame.swift; sourceTree = "<group>"; };
+		04541E252CB416A900426180 /* MinimumNumberGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberGameTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -156,6 +161,7 @@
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
 				04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */,
+				04541E232CB4169D00426180 /* MinimumNumberGame.swift */,
 				04541E132CB40BF500426180 /* AddDigits.swift */,
 				04541E0E2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift */,
 				04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */,
@@ -193,6 +199,7 @@
 				04541E162CB40BFB00426180 /* AddDigitsTests.swift */,
 				04541E1C2CB4102A00426180 /* MergeStringsAlternatelyTests.swift */,
 				04541E202CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift */,
+				04541E252CB416A900426180 /* MinimumNumberGameTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -301,6 +308,7 @@
 				04541E142CB40BF500426180 /* AddDigits.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
 				04A781722CB3047A00A42023 /* PlusOne.swift in Sources */,
+				04541E242CB4169D00426180 /* MinimumNumberGame.swift in Sources */,
 				04541E0F2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
 				04A7816D2CB3032F00A42023 /* NumberOfLines.swift in Sources */,
 			);
@@ -318,7 +326,9 @@
 				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
 				04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */,
 				04541E1B2CB4101D00426180 /* MergeStringsAlternately.swift in Sources */,
+				04541E272CB416AB00426180 /* MinimumNumberGame.swift in Sources */,
 				04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
+				04541E262CB416A900426180 /* MinimumNumberGameTests.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
 				04541E062CB3F64A00426180 /* main.swift in Sources */,
 				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
