@@ -23,6 +23,9 @@
 		04541E0F2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E0E2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift */; };
 		04541E102CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E0E2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift */; };
 		04541E122CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E112CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift */; };
+		04541E142CB40BF500426180 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E132CB40BF500426180 /* AddDigits.swift */; };
+		04541E152CB40BF500426180 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E132CB40BF500426180 /* AddDigits.swift */; };
+		04541E182CB40BFB00426180 /* AddDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E162CB40BFB00426180 /* AddDigitsTests.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -80,6 +83,8 @@
 		04541E0B2CB4090700426180 /* MaxConsecutiveOnesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnesTests.swift; sourceTree = "<group>"; };
 		04541E0E2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 		04541E112CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigitsTests.swift; sourceTree = "<group>"; };
+		04541E132CB40BF500426180 /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
+		04541E162CB40BFB00426180 /* AddDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigitsTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -140,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04541E132CB40BF500426180 /* AddDigits.swift */,
 				04541E0E2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift */,
 				04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */,
 				04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */,
@@ -172,6 +178,7 @@
 				04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */,
 				04541E0B2CB4090700426180 /* MaxConsecutiveOnesTests.swift */,
 				04541E112CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift */,
+				04541E162CB40BFB00426180 /* AddDigitsTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -275,6 +282,7 @@
 				04541DF52CB3E2E700426180 /* FindDifference.swift in Sources */,
 				04A781612CB29DA400A42023 /* ProductExceptSelf.swift in Sources */,
 				04541E072CB3F64E00426180 /* DetermineIfTwoStringsAreClose.swift in Sources */,
+				04541E142CB40BF500426180 /* AddDigits.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
 				04A781722CB3047A00A42023 /* PlusOne.swift in Sources */,
 				04541E0F2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
@@ -299,7 +307,9 @@
 				04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */,
 				04541E102CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
 				04541E122CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift in Sources */,
+				04541E152CB40BF500426180 /* AddDigits.swift in Sources */,
 				04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */,
+				04541E182CB40BFB00426180 /* AddDigitsTests.swift in Sources */,
 				04541E022CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift in Sources */,
 				04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */,
 				04541DF62CB3E2E700426180 /* FindDifference.swift in Sources */,
