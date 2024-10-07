@@ -29,6 +29,9 @@
 		04541E1A2CB4101D00426180 /* MergeStringsAlternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E192CB4101D00426180 /* MergeStringsAlternately.swift */; };
 		04541E1B2CB4101D00426180 /* MergeStringsAlternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E192CB4101D00426180 /* MergeStringsAlternately.swift */; };
 		04541E1D2CB4102A00426180 /* MergeStringsAlternatelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E1C2CB4102A00426180 /* MergeStringsAlternatelyTests.swift */; };
+		04541E1F2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */; };
+		04541E212CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E202CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift */; };
+		04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -90,6 +93,8 @@
 		04541E162CB40BFB00426180 /* AddDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigitsTests.swift; sourceTree = "<group>"; };
 		04541E192CB4101D00426180 /* MergeStringsAlternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeStringsAlternately.swift; sourceTree = "<group>"; };
 		04541E1C2CB4102A00426180 /* MergeStringsAlternatelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeStringsAlternatelyTests.swift; sourceTree = "<group>"; };
+		04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTheSentenceIsPangram.swift; sourceTree = "<group>"; };
+		04541E202CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTheSentenceIsPangramTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -150,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04541E1E2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift */,
 				04541E132CB40BF500426180 /* AddDigits.swift */,
 				04541E0E2CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift */,
 				04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */,
@@ -186,6 +192,7 @@
 				04541E112CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift */,
 				04541E162CB40BFB00426180 /* AddDigitsTests.swift */,
 				04541E1C2CB4102A00426180 /* MergeStringsAlternatelyTests.swift */,
+				04541E202CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -283,6 +290,7 @@
 				04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
 				04541E092CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
+				04541E1F2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
 				04541E1A2CB4101D00426180 /* MergeStringsAlternately.swift in Sources */,
 				04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */,
 				04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */,
@@ -310,6 +318,7 @@
 				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
 				04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */,
 				04541E1B2CB4101D00426180 /* MergeStringsAlternately.swift in Sources */,
+				04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
 				04541E062CB3F64A00426180 /* main.swift in Sources */,
 				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
@@ -331,6 +340,7 @@
 				04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */,
 				04A781752CB304A800A42023 /* PlusOneTests.swift in Sources */,
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
+				04541E212CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
