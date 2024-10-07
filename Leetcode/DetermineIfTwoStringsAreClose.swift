@@ -53,7 +53,6 @@ extension Solution {
         
         word1.forEach { letter in
             if let value = hashMap1[letter] {
-//                hashMap1[letter, default: 0]
                 hashMap1[letter] = value + 1
             } else {
                 hashMap1[letter] = 1
