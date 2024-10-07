@@ -13,6 +13,10 @@
 		04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */; };
 		04541DFC2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */; };
 		04541DFF2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DFD2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift */; };
+		04541E022CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */; };
+		04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */; };
+		04541E062CB3F64A00426180 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
+		04541E072CB3F64E00426180 /* DetermineIfTwoStringsAreClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -32,7 +36,6 @@
 		04A781782CB3062D00A42023 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781762CB3062B00A42023 /* SearchInsertPosition.swift */; };
 		04A7817A2CB3063A00A42023 /* SearchInsertPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A781792CB3063A00A42023 /* SearchInsertPositionTests.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
-		04E8BFF32CB279AA00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
 		04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
 		04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0032CB2E56100E58205 /* StringCompressionTests.swift */; };
@@ -65,6 +68,8 @@
 		04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifferenceTests.swift; sourceTree = "<group>"; };
 		04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurences.swift; sourceTree = "<group>"; };
 		04541DFD2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurencesTests.swift; sourceTree = "<group>"; };
+		04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineIfTwoStringsAreClose.swift; sourceTree = "<group>"; };
+		04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineIfTwoStringsAreCloseTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -125,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */,
 				04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */,
 				04541DF42CB3E2E700426180 /* FindDifference.swift */,
 				04A781712CB3047A00A42023 /* PlusOne.swift */,
@@ -151,6 +157,7 @@
 				04A781792CB3063A00A42023 /* SearchInsertPositionTests.swift */,
 				04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */,
 				04541DFD2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift */,
+				04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -252,6 +259,7 @@
 				04A781662CB29FD000A42023 /* IncreasingTriplet.swift in Sources */,
 				04541DF52CB3E2E700426180 /* FindDifference.swift in Sources */,
 				04A781612CB29DA400A42023 /* ProductExceptSelf.swift in Sources */,
+				04541E072CB3F64E00426180 /* DetermineIfTwoStringsAreClose.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
 				04A781722CB3047A00A42023 /* PlusOne.swift in Sources */,
 				04A7816D2CB3032F00A42023 /* NumberOfLines.swift in Sources */,
@@ -266,19 +274,21 @@
 				04541DFF2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift in Sources */,
 				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
 				04541DFC2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
-				04E8BFF32CB279AA00E58205 /* main.swift in Sources */,
 				04A781782CB3062D00A42023 /* SearchInsertPosition.swift in Sources */,
 				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
 				04A7816A2CB2D40700A42023 /* IncreasingTripletTests.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
+				04541E062CB3F64A00426180 /* main.swift in Sources */,
 				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
 				04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */,
 				04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */,
+				04541E022CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift in Sources */,
 				04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */,
 				04541DF62CB3E2E700426180 /* FindDifference.swift in Sources */,
 				04A781622CB29DAA00A42023 /* ProductExceptSelf.swift in Sources */,
 				04A781732CB3048000A42023 /* PlusOne.swift in Sources */,
 				04541DF92CB3E30B00426180 /* FindDifferenceTests.swift in Sources */,
+				04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */,
 				04A781752CB304A800A42023 /* PlusOneTests.swift in Sources */,
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
 			);
