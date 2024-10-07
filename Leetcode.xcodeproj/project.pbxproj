@@ -17,6 +17,9 @@
 		04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */; };
 		04541E062CB3F64A00426180 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04541E072CB3F64E00426180 /* DetermineIfTwoStringsAreClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */; };
+		04541E092CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E082CB4088000426180 /* MaxConsecutiveOnes.swift */; };
+		04541E0A2CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E082CB4088000426180 /* MaxConsecutiveOnes.swift */; };
+		04541E0D2CB4090700426180 /* MaxConsecutiveOnesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541E0B2CB4090700426180 /* MaxConsecutiveOnesTests.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -70,6 +73,8 @@
 		04541DFD2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurencesTests.swift; sourceTree = "<group>"; };
 		04541E002CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineIfTwoStringsAreClose.swift; sourceTree = "<group>"; };
 		04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineIfTwoStringsAreCloseTests.swift; sourceTree = "<group>"; };
+		04541E082CB4088000426180 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		04541E0B2CB4090700426180 /* MaxConsecutiveOnesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnesTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -140,6 +145,7 @@
 				04A781602CB29DA400A42023 /* ProductExceptSelf.swift */,
 				04A781652CB29FD000A42023 /* IncreasingTriplet.swift */,
 				04A781762CB3062B00A42023 /* SearchInsertPosition.swift */,
+				04541E082CB4088000426180 /* MaxConsecutiveOnes.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */,
 				04541DFD2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift */,
 				04541E032CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift */,
+				04541E0B2CB4090700426180 /* MaxConsecutiveOnesTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -254,6 +261,7 @@
 			files = (
 				04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
+				04541E092CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
 				04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */,
 				04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */,
 				04A781662CB29FD000A42023 /* IncreasingTriplet.swift in Sources */,
@@ -285,9 +293,11 @@
 				04541E022CB3EF8700426180 /* DetermineIfTwoStringsAreClose.swift in Sources */,
 				04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */,
 				04541DF62CB3E2E700426180 /* FindDifference.swift in Sources */,
+				04541E0D2CB4090700426180 /* MaxConsecutiveOnesTests.swift in Sources */,
 				04A781622CB29DAA00A42023 /* ProductExceptSelf.swift in Sources */,
 				04A781732CB3048000A42023 /* PlusOne.swift in Sources */,
 				04541DF92CB3E30B00426180 /* FindDifferenceTests.swift in Sources */,
+				04541E0A2CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
 				04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */,
 				04A781752CB304A800A42023 /* PlusOneTests.swift in Sources */,
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
