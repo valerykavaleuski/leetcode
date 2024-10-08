@@ -68,6 +68,9 @@
 		04CE27722CB5913C00B20026 /* CanPlaceFlowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27712CB5913C00B20026 /* CanPlaceFlowers.swift */; };
 		04CE27732CB5913C00B20026 /* CanPlaceFlowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27712CB5913C00B20026 /* CanPlaceFlowers.swift */; };
 		04CE27752CB591F400B20026 /* CanPlaceFlowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27742CB591F400B20026 /* CanPlaceFlowersTests.swift */; };
+		04CE27772CB594C200B20026 /* ReverseWordsInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27762CB594C200B20026 /* ReverseWordsInAString.swift */; };
+		04CE27782CB594C200B20026 /* ReverseWordsInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27762CB594C200B20026 /* ReverseWordsInAString.swift */; };
+		04CE277A2CB5956600B20026 /* ReverseWordsInAStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27792CB5956600B20026 /* ReverseWordsInAStringTests.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
 		04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
@@ -137,6 +140,8 @@
 		04CE276B2CB580C400B20026 /* ContainerWithMostWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTests.swift; sourceTree = "<group>"; };
 		04CE27712CB5913C00B20026 /* CanPlaceFlowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPlaceFlowers.swift; sourceTree = "<group>"; };
 		04CE27742CB591F400B20026 /* CanPlaceFlowersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPlaceFlowersTests.swift; sourceTree = "<group>"; };
+		04CE27762CB594C200B20026 /* ReverseWordsInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAString.swift; sourceTree = "<group>"; };
+		04CE27792CB5956600B20026 /* ReverseWordsInAStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAStringTests.swift; sourceTree = "<group>"; };
 		04E8BFDB2CB2791B00E58205 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8BFDE2CB2791B00E58205 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04E8BFE92CB2793300E58205 /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +211,7 @@
 				04541E082CB4088000426180 /* MaxConsecutiveOnes.swift */,
 				04541E192CB4101D00426180 /* MergeStringsAlternately.swift */,
 				04CE27712CB5913C00B20026 /* CanPlaceFlowers.swift */,
+				04CE27762CB594C200B20026 /* ReverseWordsInAString.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				04CE27662CB5732200B20026 /* IsSubsequenceTests.swift */,
 				04CE276B2CB580C400B20026 /* ContainerWithMostWaterTests.swift */,
 				04CE27742CB591F400B20026 /* CanPlaceFlowersTests.swift */,
+				04CE27792CB5956600B20026 /* ReverseWordsInAStringTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -329,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE27772CB594C200B20026 /* ReverseWordsInAString.swift in Sources */,
 				04CE27692CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
 				04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
@@ -358,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE27782CB594C200B20026 /* ReverseWordsInAString.swift in Sources */,
 				04A7817A2CB3063A00A42023 /* SearchInsertPositionTests.swift in Sources */,
 				04CE276D2CB580C400B20026 /* ContainerWithMostWaterTests.swift in Sources */,
 				04541DFF2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift in Sources */,
@@ -397,6 +406,7 @@
 				04A781732CB3048000A42023 /* PlusOne.swift in Sources */,
 				04541DF92CB3E30B00426180 /* FindDifferenceTests.swift in Sources */,
 				04541E0A2CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
+				04CE277A2CB5956600B20026 /* ReverseWordsInAStringTests.swift in Sources */,
 				04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */,
 				04A781752CB304A800A42023 /* PlusOneTests.swift in Sources */,
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
