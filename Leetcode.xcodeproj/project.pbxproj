@@ -62,6 +62,9 @@
 		04CE27642CB5731A00B20026 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27632CB5731A00B20026 /* IsSubsequence.swift */; };
 		04CE27652CB5731A00B20026 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27632CB5731A00B20026 /* IsSubsequence.swift */; };
 		04CE27672CB5732200B20026 /* IsSubsequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27662CB5732200B20026 /* IsSubsequenceTests.swift */; };
+		04CE27692CB5809900B20026 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27682CB5809900B20026 /* ContainerWithMostWater.swift */; };
+		04CE276A2CB5809900B20026 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE27682CB5809900B20026 /* ContainerWithMostWater.swift */; };
+		04CE276D2CB580C400B20026 /* ContainerWithMostWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE276B2CB580C400B20026 /* ContainerWithMostWaterTests.swift */; };
 		04E8BFDF2CB2791B00E58205 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BFDE2CB2791B00E58205 /* main.swift */; };
 		04E8C0012CB2E55700E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
 		04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8C0002CB2E55700E58205 /* StringCompression.swift */; };
@@ -127,6 +130,8 @@
 		04CE27612CB56C0E00B20026 /* MoveZeroesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroesTests.swift; sourceTree = "<group>"; };
 		04CE27632CB5731A00B20026 /* IsSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequence.swift; sourceTree = "<group>"; };
 		04CE27662CB5732200B20026 /* IsSubsequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequenceTests.swift; sourceTree = "<group>"; };
+		04CE27682CB5809900B20026 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		04CE276B2CB580C400B20026 /* ContainerWithMostWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTests.swift; sourceTree = "<group>"; };
 		04E8BFDB2CB2791B00E58205 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8BFDE2CB2791B00E58205 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04E8BFE92CB2793300E58205 /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04CE27682CB5809900B20026 /* ContainerWithMostWater.swift */,
 				04CE27632CB5731A00B20026 /* IsSubsequence.swift */,
 				04CE275E2CB56B6700B20026 /* MoveZeroes.swift */,
 				04541E282CB428D700426180 /* EqualRowAndColumnPairs.swift */,
@@ -221,6 +227,7 @@
 				04541E2B2CB428DE00426180 /* EqualRowAndColumnPairsTests.swift */,
 				04CE27612CB56C0E00B20026 /* MoveZeroesTests.swift */,
 				04CE27662CB5732200B20026 /* IsSubsequenceTests.swift */,
+				04CE276B2CB580C400B20026 /* ContainerWithMostWaterTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -315,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE27692CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
 				04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
 				04541E092CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
@@ -343,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A7817A2CB3063A00A42023 /* SearchInsertPositionTests.swift in Sources */,
+				04CE276D2CB580C400B20026 /* ContainerWithMostWaterTests.swift in Sources */,
 				04541DFF2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift in Sources */,
 				04CE27602CB56B6A00B20026 /* MoveZeroes.swift in Sources */,
 				04CE27672CB5732200B20026 /* IsSubsequenceTests.swift in Sources */,
@@ -354,6 +363,7 @@
 				04541E1B2CB4101D00426180 /* MergeStringsAlternately.swift in Sources */,
 				04541E272CB416AB00426180 /* MinimumNumberGame.swift in Sources */,
 				04541E2D2CB428DE00426180 /* EqualRowAndColumnPairsTests.swift in Sources */,
+				04CE276A2CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
 				04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
 				04541E262CB416A900426180 /* MinimumNumberGameTests.swift in Sources */,
 				04A781642CB29DEC00A42023 /* ProductExceptSelfTests.swift in Sources */,
