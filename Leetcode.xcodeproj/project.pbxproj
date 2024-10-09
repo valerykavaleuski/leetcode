@@ -10,6 +10,9 @@
 		043F6C102CB6D8C600297C7E /* MinimumAddToMakeParenthesesValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C0F2CB6D8C600297C7E /* MinimumAddToMakeParenthesesValid.swift */; };
 		043F6C122CB6D8CC00297C7E /* MinimumAddToMakeParenthesesValidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C112CB6D8CC00297C7E /* MinimumAddToMakeParenthesesValidTests.swift */; };
 		043F6C132CB6D8CE00297C7E /* MinimumAddToMakeParenthesesValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C0F2CB6D8C600297C7E /* MinimumAddToMakeParenthesesValid.swift */; };
+		043F6C152CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C142CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift */; };
+		043F6C162CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C142CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift */; };
+		043F6C182CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C172CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift */; };
 		04541DF52CB3E2E700426180 /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DF42CB3E2E700426180 /* FindDifference.swift */; };
 		04541DF62CB3E2E700426180 /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DF42CB3E2E700426180 /* FindDifference.swift */; };
 		04541DF92CB3E30B00426180 /* FindDifferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */; };
@@ -105,6 +108,8 @@
 /* Begin PBXFileReference section */
 		043F6C0F2CB6D8C600297C7E /* MinimumAddToMakeParenthesesValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumAddToMakeParenthesesValid.swift; sourceTree = "<group>"; };
 		043F6C112CB6D8CC00297C7E /* MinimumAddToMakeParenthesesValidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumAddToMakeParenthesesValidTests.swift; sourceTree = "<group>"; };
+		043F6C142CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacterInAString.swift; sourceTree = "<group>"; };
+		043F6C172CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacterInAStringTests.swift; sourceTree = "<group>"; };
 		04541DF42CB3E2E700426180 /* FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifference.swift; sourceTree = "<group>"; };
 		04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifferenceTests.swift; sourceTree = "<group>"; };
 		04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurences.swift; sourceTree = "<group>"; };
@@ -195,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				043F6C142CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift */,
 				043F6C0F2CB6D8C600297C7E /* MinimumAddToMakeParenthesesValid.swift */,
 				04CE27682CB5809900B20026 /* ContainerWithMostWater.swift */,
 				04CE27632CB5731A00B20026 /* IsSubsequence.swift */,
@@ -249,6 +255,7 @@
 				04CE27742CB591F400B20026 /* CanPlaceFlowersTests.swift */,
 				04CE27792CB5956600B20026 /* ReverseWordsInAStringTests.swift */,
 				043F6C112CB6D8CC00297C7E /* MinimumAddToMakeParenthesesValidTests.swift */,
+				043F6C172CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -362,6 +369,7 @@
 				04541E142CB40BF500426180 /* AddDigits.swift in Sources */,
 				04CE27642CB5731A00B20026 /* IsSubsequence.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
+				043F6C152CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */,
 				04CE275F2CB56B6700B20026 /* MoveZeroes.swift in Sources */,
 				04A781722CB3047A00A42023 /* PlusOne.swift in Sources */,
 				04541E242CB4169D00426180 /* MinimumNumberGame.swift in Sources */,
@@ -375,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CE27782CB594C200B20026 /* ReverseWordsInAString.swift in Sources */,
+				043F6C162CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */,
 				04A7817A2CB3063A00A42023 /* SearchInsertPositionTests.swift in Sources */,
 				04CE276D2CB580C400B20026 /* ContainerWithMostWaterTests.swift in Sources */,
 				04541DFF2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift in Sources */,
@@ -399,6 +408,7 @@
 				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
 				04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */,
 				04541E2A2CB428D700426180 /* EqualRowAndColumnPairs.swift in Sources */,
+				043F6C182CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift in Sources */,
 				04541E102CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
 				04541E1D2CB4102A00426180 /* MergeStringsAlternatelyTests.swift in Sources */,
 				04541E122CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift in Sources */,
