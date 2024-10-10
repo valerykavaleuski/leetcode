@@ -53,6 +53,9 @@
 		045A6BA32CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA22CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift */; };
 		045A6BA42CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA22CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift */; };
 		045A6BA62CB82AE30042164A /* CountPairsWhoseSumIsLessThanTargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA52CB82AE30042164A /* CountPairsWhoseSumIsLessThanTargetTests.swift */; };
+		045A6BA82CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */; };
+		045A6BA92CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */; };
+		045A6BAB2CB832760042164A /* ReversePrefixOfWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -145,6 +148,8 @@
 		045A6BA02CB823AD0042164A /* MaximumWidthRampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumWidthRampTests.swift; sourceTree = "<group>"; };
 		045A6BA22CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairsWhoseSumIsLessThanTarget.swift; sourceTree = "<group>"; };
 		045A6BA52CB82AE30042164A /* CountPairsWhoseSumIsLessThanTargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairsWhoseSumIsLessThanTargetTests.swift; sourceTree = "<group>"; };
+		045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWord.swift; sourceTree = "<group>"; };
+		045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWordTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -215,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */,
 				045A6BA22CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift */,
 				045A6B9D2CB823A40042164A /* MaximumWidthRamp.swift */,
 				043F6C192CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift */,
@@ -277,6 +283,7 @@
 				043F6C1C2CB6E66300297C7E /* MaximumNumberOfWordsFoundInSentencesTests.swift */,
 				045A6BA02CB823AD0042164A /* MaximumWidthRampTests.swift */,
 				045A6BA52CB82AE30042164A /* CountPairsWhoseSumIsLessThanTargetTests.swift */,
+				045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -374,6 +381,7 @@
 				04CE27772CB594C200B20026 /* ReverseWordsInAString.swift in Sources */,
 				043F6C1A2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */,
 				04CE27692CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
+				045A6BA82CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */,
 				04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
 				04541E092CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
@@ -415,6 +423,7 @@
 				04CE27672CB5732200B20026 /* IsSubsequenceTests.swift in Sources */,
 				043F6C1B2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */,
 				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
+				045A6BAB2CB832760042164A /* ReversePrefixOfWordTests.swift in Sources */,
 				04541DFC2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781782CB3062D00A42023 /* SearchInsertPosition.swift in Sources */,
 				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
@@ -461,6 +470,7 @@
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
 				04541E212CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift in Sources */,
 				043F6C122CB6D8CC00297C7E /* MinimumAddToMakeParenthesesValidTests.swift in Sources */,
+				045A6BA92CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
