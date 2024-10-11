@@ -65,6 +65,9 @@
 		045A6BA82CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */; };
 		045A6BA92CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */; };
 		045A6BAB2CB832760042164A /* ReversePrefixOfWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */; };
+		049025292CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */; };
+		0490252A2CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */; };
+		0490252C2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -165,6 +168,8 @@
 		045A6BA52CB82AE30042164A /* CountPairsWhoseSumIsLessThanTargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairsWhoseSumIsLessThanTargetTests.swift; sourceTree = "<group>"; };
 		045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWord.swift; sourceTree = "<group>"; };
 		045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWordTests.swift; sourceTree = "<group>"; };
+		049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonElementsBetweenTwoArrays.swift; sourceTree = "<group>"; };
+		0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonElementsBetweenTwoArraysTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -235,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */,
 				045A53742CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift */,
 				045A536F2CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift */,
 				045A536A2CB9364700BEE694 /* CountTheDigitsThatDivideANumber.swift */,
@@ -305,6 +311,7 @@
 				045A536D2CB9365000BEE694 /* CountTheDigitsThatDivideANumberTests.swift */,
 				045A53722CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift */,
 				045A53772CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift */,
+				0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -407,6 +414,7 @@
 				04541DFB2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
 				04A781772CB3062B00A42023 /* SearchInsertPosition.swift in Sources */,
 				045A53702CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift in Sources */,
+				049025292CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */,
 				04541E092CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
 				04541E1F2CB4149600426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
 				04CE27722CB5913C00B20026 /* CanPlaceFlowers.swift in Sources */,
@@ -470,6 +478,7 @@
 				04CE27732CB5913C00B20026 /* CanPlaceFlowers.swift in Sources */,
 				045A6B9F2CB823A40042164A /* MaximumWidthRamp.swift in Sources */,
 				04541E062CB3F64A00426180 /* main.swift in Sources */,
+				0490252A2CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */,
 				04E8C0022CB2E55A00E58205 /* StringCompression.swift in Sources */,
 				04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */,
 				04541E2A2CB428D700426180 /* EqualRowAndColumnPairs.swift in Sources */,
@@ -496,6 +505,7 @@
 				04541E0A2CB4088000426180 /* MaxConsecutiveOnes.swift in Sources */,
 				04CE277A2CB5956600B20026 /* ReverseWordsInAStringTests.swift in Sources */,
 				04541E052CB3F07100426180 /* DetermineIfTwoStringsAreCloseTests.swift in Sources */,
+				0490252C2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift in Sources */,
 				04A781752CB304A800A42023 /* PlusOneTests.swift in Sources */,
 				04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */,
 				04541E212CB414A900426180 /* CheckIfTheSentenceIsPangramTests.swift in Sources */,
