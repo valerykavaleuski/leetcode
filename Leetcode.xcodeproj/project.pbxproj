@@ -53,6 +53,9 @@
 		045A53702CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A536F2CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift */; };
 		045A53712CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A536F2CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift */; };
 		045A53732CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A53722CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift */; };
+		045A53752CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A53742CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift */; };
+		045A53762CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A53742CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift */; };
+		045A53792CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A53772CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift */; };
 		045A6B9E2CB823A40042164A /* MaximumWidthRamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6B9D2CB823A40042164A /* MaximumWidthRamp.swift */; };
 		045A6B9F2CB823A40042164A /* MaximumWidthRamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6B9D2CB823A40042164A /* MaximumWidthRamp.swift */; };
 		045A6BA12CB823AD0042164A /* MaximumWidthRampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA02CB823AD0042164A /* MaximumWidthRampTests.swift */; };
@@ -154,6 +157,8 @@
 		045A536D2CB9365000BEE694 /* CountTheDigitsThatDivideANumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTheDigitsThatDivideANumberTests.swift; sourceTree = "<group>"; };
 		045A536F2CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFirstPalindromicStringInTheArray.swift; sourceTree = "<group>"; };
 		045A53722CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFirstPalindromicStringInTheArrayTests.swift; sourceTree = "<group>"; };
+		045A53742CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceBetweenElementSumAndDigitSumOfAnArray.swift; sourceTree = "<group>"; };
+		045A53772CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift; sourceTree = "<group>"; };
 		045A6B9D2CB823A40042164A /* MaximumWidthRamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumWidthRamp.swift; sourceTree = "<group>"; };
 		045A6BA02CB823AD0042164A /* MaximumWidthRampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumWidthRampTests.swift; sourceTree = "<group>"; };
 		045A6BA22CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairsWhoseSumIsLessThanTarget.swift; sourceTree = "<group>"; };
@@ -230,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				045A53742CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift */,
 				045A536F2CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift */,
 				045A536A2CB9364700BEE694 /* CountTheDigitsThatDivideANumber.swift */,
 				045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */,
@@ -298,6 +304,7 @@
 				045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */,
 				045A536D2CB9365000BEE694 /* CountTheDigitsThatDivideANumberTests.swift */,
 				045A53722CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift */,
+				045A53772CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -392,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045A53752CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift in Sources */,
 				04CE27772CB594C200B20026 /* ReverseWordsInAString.swift in Sources */,
 				043F6C1A2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */,
 				04CE27692CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
@@ -441,7 +449,9 @@
 				043F6C1B2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */,
 				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
 				045A6BAB2CB832760042164A /* ReversePrefixOfWordTests.swift in Sources */,
+				045A53792CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift in Sources */,
 				04541DFC2CB3E6D700426180 /* UniqueNumberOfOccurences.swift in Sources */,
+				045A53762CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift in Sources */,
 				04A781782CB3062D00A42023 /* SearchInsertPosition.swift in Sources */,
 				045A53732CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift in Sources */,
 				04A781702CB3036800A42023 /* NumberOfLinesTests.swift in Sources */,
