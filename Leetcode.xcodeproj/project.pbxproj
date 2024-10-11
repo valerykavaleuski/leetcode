@@ -68,6 +68,9 @@
 		049025292CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */; };
 		0490252A2CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */; };
 		0490252C2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */; };
+		0490252E2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490252D2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift */; };
+		0490252F2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490252D2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift */; };
+		049025322CB95A59009F5F1F /* MaxNumberOfKSumPairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025302CB95A59009F5F1F /* MaxNumberOfKSumPairsTests.swift */; };
 		04A7815B2CB27B3A00A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
 		04A7815D2CB27B6A00A42023 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */; };
 		04A7815F2CB27B8200A42023 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */; };
@@ -170,6 +173,8 @@
 		045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWordTests.swift; sourceTree = "<group>"; };
 		049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonElementsBetweenTwoArrays.swift; sourceTree = "<group>"; };
 		0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonElementsBetweenTwoArraysTests.swift; sourceTree = "<group>"; };
+		0490252D2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberOfKSumPairs.swift; sourceTree = "<group>"; };
+		049025302CB95A59009F5F1F /* MaxNumberOfKSumPairsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberOfKSumPairsTests.swift; sourceTree = "<group>"; };
 		04A7815A2CB27B3A00A42023 /* ReverseVowels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		04A7815C2CB27B6A00A42023 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
 		04A781602CB29DA400A42023 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
@@ -240,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				0490252D2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift */,
 				049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */,
 				045A53742CB93EF500BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArray.swift */,
 				045A536F2CB939CF00BEE694 /* FindFirstPalindromicStringInTheArray.swift */,
@@ -312,6 +318,7 @@
 				045A53722CB939D500BEE694 /* FindFirstPalindromicStringInTheArrayTests.swift */,
 				045A53772CB93EFB00BEE694 /* DifferenceBetweenElementSumAndDigitSumOfAnArrayTests.swift */,
 				0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */,
+				049025302CB95A59009F5F1F /* MaxNumberOfKSumPairsTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -430,6 +437,7 @@
 				04541E072CB3F64E00426180 /* DetermineIfTwoStringsAreClose.swift in Sources */,
 				04541E142CB40BF500426180 /* AddDigits.swift in Sources */,
 				04CE27642CB5731A00B20026 /* IsSubsequence.swift in Sources */,
+				0490252E2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
 				043F6C152CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */,
 				04CE275F2CB56B6700B20026 /* MoveZeroes.swift in Sources */,
@@ -453,6 +461,7 @@
 				04CE276D2CB580C400B20026 /* ContainerWithMostWaterTests.swift in Sources */,
 				04541DFF2CB3E6FF00426180 /* UniqueNumberOfOccurencesTests.swift in Sources */,
 				04CE27602CB56B6A00B20026 /* MoveZeroes.swift in Sources */,
+				049025322CB95A59009F5F1F /* MaxNumberOfKSumPairsTests.swift in Sources */,
 				04CE27672CB5732200B20026 /* IsSubsequenceTests.swift in Sources */,
 				043F6C1B2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */,
 				04E8C0042CB2E56100E58205 /* StringCompressionTests.swift in Sources */,
@@ -470,6 +479,7 @@
 				04CE27752CB591F400B20026 /* CanPlaceFlowersTests.swift in Sources */,
 				04CE276A2CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
 				04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
+				0490252F2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift in Sources */,
 				04541E262CB416A900426180 /* MinimumNumberGameTests.swift in Sources */,
 				045A6BA12CB823AD0042164A /* MaximumWidthRampTests.swift in Sources */,
 				043F6C132CB6D8CE00297C7E /* MinimumAddToMakeParenthesesValid.swift in Sources */,
