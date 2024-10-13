@@ -68,6 +68,9 @@
 		045A6BA82CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */; };
 		045A6BA92CB8326E0042164A /* ReversePrefixOfWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */; };
 		045A6BAB2CB832760042164A /* ReversePrefixOfWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */; };
+		048D0CEF2CBC0405006A833C /* FindPivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D0CEE2CBC0405006A833C /* FindPivotIndex.swift */; };
+		048D0CF02CBC0405006A833C /* FindPivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D0CEE2CBC0405006A833C /* FindPivotIndex.swift */; };
+		048D0CF22CBC040F006A833C /* FindPivotIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D0CF12CBC040F006A833C /* FindPivotIndexTests.swift */; };
 		049025292CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */; };
 		0490252A2CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */; };
 		0490252C2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */; };
@@ -176,6 +179,8 @@
 		045A6BA52CB82AE30042164A /* CountPairsWhoseSumIsLessThanTargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairsWhoseSumIsLessThanTargetTests.swift; sourceTree = "<group>"; };
 		045A6BA72CB8326E0042164A /* ReversePrefixOfWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWord.swift; sourceTree = "<group>"; };
 		045A6BAA2CB832760042164A /* ReversePrefixOfWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrefixOfWordTests.swift; sourceTree = "<group>"; };
+		048D0CEE2CBC0405006A833C /* FindPivotIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPivotIndex.swift; sourceTree = "<group>"; };
+		048D0CF12CBC040F006A833C /* FindPivotIndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPivotIndexTests.swift; sourceTree = "<group>"; };
 		049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonElementsBetweenTwoArrays.swift; sourceTree = "<group>"; };
 		0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonElementsBetweenTwoArraysTests.swift; sourceTree = "<group>"; };
 		0490252D2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberOfKSumPairs.swift; sourceTree = "<group>"; };
@@ -250,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				048D0CEE2CBC0405006A833C /* FindPivotIndex.swift */,
 				0454714A2CBAEF0A00413BA3 /* FindTheHighestAltitude.swift */,
 				0490252D2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift */,
 				049025282CB9505C009F5F1F /* FindCommonElementsBetweenTwoArrays.swift */,
@@ -326,6 +332,7 @@
 				0490252B2CB95064009F5F1F /* FindCommonElementsBetweenTwoArraysTests.swift */,
 				049025302CB95A59009F5F1F /* MaxNumberOfKSumPairsTests.swift */,
 				0454714D2CBAEF1300413BA3 /* FindTheHighestAltitudeTests.swift */,
+				048D0CF12CBC040F006A833C /* FindPivotIndexTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -450,6 +457,7 @@
 				043F6C152CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */,
 				04CE275F2CB56B6700B20026 /* MoveZeroes.swift in Sources */,
 				04A781722CB3047A00A42023 /* PlusOne.swift in Sources */,
+				048D0CEF2CBC0405006A833C /* FindPivotIndex.swift in Sources */,
 				045A6BA32CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift in Sources */,
 				045A6B9E2CB823A40042164A /* MaximumWidthRamp.swift in Sources */,
 				04541E242CB4169D00426180 /* MinimumNumberGame.swift in Sources */,
@@ -487,6 +495,7 @@
 				04CE27752CB591F400B20026 /* CanPlaceFlowersTests.swift in Sources */,
 				04CE276A2CB5809900B20026 /* ContainerWithMostWater.swift in Sources */,
 				04541E222CB4152D00426180 /* CheckIfTheSentenceIsPangram.swift in Sources */,
+				048D0CF22CBC040F006A833C /* FindPivotIndexTests.swift in Sources */,
 				0490252F2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift in Sources */,
 				04541E262CB416A900426180 /* MinimumNumberGameTests.swift in Sources */,
 				045A6BA12CB823AD0042164A /* MaximumWidthRampTests.swift in Sources */,
@@ -502,6 +511,7 @@
 				04A7816E2CB3033200A42023 /* NumberOfLines.swift in Sources */,
 				04541E2A2CB428D700426180 /* EqualRowAndColumnPairs.swift in Sources */,
 				045A536C2CB9364700BEE694 /* CountTheDigitsThatDivideANumber.swift in Sources */,
+				048D0CF02CBC0405006A833C /* FindPivotIndex.swift in Sources */,
 				043F6C182CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift in Sources */,
 				04541E102CB40AE800426180 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
 				04541E1D2CB4102A00426180 /* MergeStringsAlternatelyTests.swift in Sources */,
