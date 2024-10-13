@@ -34,38 +34,21 @@
   
 
  Note: This question is the same as 1991: https://leetcode.com/problems/find-the-middle-index-in-array/
+ 
  */
 
 extension Solution {
     
     @_optimize(speed)
     func pivotIndex(_ nums: [Int]) -> Int {
-        guard nums.count > 1 else {
-            return nums.count == 1 ? 0 : -1
-        }
+        let totalSum = nums.reduce(0, +)
+        var leftSum = 0
         
-        let lowerbound = 0
-        let upperbound = nums.count - 1
-        var mutable = nums
-        
-        for index in (lowerbound..<upperbound).reversed() {
-            mutable[index] = mutable[index + 1] + mutable[index]
-        }
-        
-        mutable[lowerbound] = nums[lowerbound]
-        if mutable[lowerbound + 1] == 0 {
-            return lowerbound
-        }
-              
-        for index in (lowerbound + 1)..<upperbound {
-            mutable[index] = mutable[index - 1] + nums[index]
-            if mutable[index - 1] == mutable[min((index + 1), (nums.count - 1))] {
+        for (index, num) in nums.enumerated() {
+            if leftSum  == totalSum - leftSum - num {
                 return index
             }
-            
-            if index == upperbound - 1 && mutable[index] == 0 {
-                return upperbound
-            }
+            leftSum += num
         }
         
         return -1
