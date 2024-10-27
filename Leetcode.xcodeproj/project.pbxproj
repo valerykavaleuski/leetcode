@@ -16,6 +16,9 @@
 		043F6C1A2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C192CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift */; };
 		043F6C1B2CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C192CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift */; };
 		043F6C1D2CB6E66300297C7E /* MaximumNumberOfWordsFoundInSentencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F6C1C2CB6E66300297C7E /* MaximumNumberOfWordsFoundInSentencesTests.swift */; };
+		04454C7C2CCEBD1D00B6FA90 /* ContainsDublicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04454C7B2CCEBD1D00B6FA90 /* ContainsDublicate.swift */; };
+		04454C7D2CCEBD2000B6FA90 /* ContainsDublicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04454C7B2CCEBD1D00B6FA90 /* ContainsDublicate.swift */; };
+		04454C7F2CCEBD4400B6FA90 /* ContainsDublicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04454C7E2CCEBD4400B6FA90 /* ContainsDublicateTests.swift */; };
 		04541DF52CB3E2E700426180 /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DF42CB3E2E700426180 /* FindDifference.swift */; };
 		04541DF62CB3E2E700426180 /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DF42CB3E2E700426180 /* FindDifference.swift */; };
 		04541DF92CB3E30B00426180 /* FindDifferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */; };
@@ -148,6 +151,8 @@
 		043F6C172CB6DBCA00297C7E /* FirstUniqueCharacterInAStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacterInAStringTests.swift; sourceTree = "<group>"; };
 		043F6C192CB6E65A00297C7E /* MaximumNumberOfWordsFoundInSentences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNumberOfWordsFoundInSentences.swift; sourceTree = "<group>"; };
 		043F6C1C2CB6E66300297C7E /* MaximumNumberOfWordsFoundInSentencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNumberOfWordsFoundInSentencesTests.swift; sourceTree = "<group>"; };
+		04454C7B2CCEBD1D00B6FA90 /* ContainsDublicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDublicate.swift; sourceTree = "<group>"; };
+		04454C7E2CCEBD4400B6FA90 /* ContainsDublicateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDublicateTests.swift; sourceTree = "<group>"; };
 		04541DF42CB3E2E700426180 /* FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifference.swift; sourceTree = "<group>"; };
 		04541DF72CB3E30B00426180 /* FindDifferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifferenceTests.swift; sourceTree = "<group>"; };
 		04541DFA2CB3E6D700426180 /* UniqueNumberOfOccurences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurences.swift; sourceTree = "<group>"; };
@@ -260,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				04E8BFDE2CB2791B00E58205 /* main.swift */,
+				04454C7B2CCEBD1D00B6FA90 /* ContainsDublicate.swift */,
 				048D0CEE2CBC0405006A833C /* FindPivotIndex.swift */,
 				048D0CF32CBC071A006A833C /* FindTheMiddleIndexInArray.swift */,
 				0454714A2CBAEF0A00413BA3 /* FindTheHighestAltitude.swift */,
@@ -340,6 +346,7 @@
 				0454714D2CBAEF1300413BA3 /* FindTheHighestAltitudeTests.swift */,
 				048D0CF12CBC040F006A833C /* FindPivotIndexTests.swift */,
 				048D0CF62CBC0722006A833C /* FindTheMiddleIndexInArrayTests.swift */,
+				04454C7E2CCEBD4400B6FA90 /* ContainsDublicateTests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -462,6 +469,7 @@
 				04CE27642CB5731A00B20026 /* IsSubsequence.swift in Sources */,
 				0490252E2CB95A53009F5F1F /* MaxNumberOfKSumPairs.swift in Sources */,
 				04E8BFDF2CB2791B00E58205 /* main.swift in Sources */,
+				04454C7C2CCEBD1D00B6FA90 /* ContainsDublicate.swift in Sources */,
 				043F6C152CB6DBC200297C7E /* FirstUniqueCharacterInAString.swift in Sources */,
 				04CE275F2CB56B6700B20026 /* MoveZeroes.swift in Sources */,
 				04A781722CB3047A00A42023 /* PlusOne.swift in Sources */,
@@ -526,10 +534,12 @@
 				04541E1D2CB4102A00426180 /* MergeStringsAlternatelyTests.swift in Sources */,
 				04541E122CB40AF000426180 /* FindNumbersWithEvenNumberOfDigitsTests.swift in Sources */,
 				0454714E2CBAEF1300413BA3 /* FindTheHighestAltitudeTests.swift in Sources */,
+				04454C7F2CCEBD4400B6FA90 /* ContainsDublicateTests.swift in Sources */,
 				048D0CF82CBC0722006A833C /* FindTheMiddleIndexInArrayTests.swift in Sources */,
 				045A6BA42CB82ADB0042164A /* CountPairsWhoseSumIsLessThanTarget.swift in Sources */,
 				04541E152CB40BF500426180 /* AddDigits.swift in Sources */,
 				04CE27622CB56C0E00B20026 /* MoveZeroesTests.swift in Sources */,
+				04454C7D2CCEBD2000B6FA90 /* ContainsDublicate.swift in Sources */,
 				04CE27652CB5731A00B20026 /* IsSubsequence.swift in Sources */,
 				04A7816B2CB2D40C00A42023 /* IncreasingTriplet.swift in Sources */,
 				04541E182CB40BFB00426180 /* AddDigitsTests.swift in Sources */,
